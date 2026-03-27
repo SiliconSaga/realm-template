@@ -1,0 +1,30 @@
+# ecosystem.yaml — Template Overlay
+#
+# Example overlay for learning Yggdrasil and GDD. Declares a few public
+# repos that anyone can clone and explore without auth setup.
+#
+# To create your own overlay: fork this repo, edit the values below,
+# and run `ws overlay <your-fork-url>`.
+
+defaults:
+  gitOrg: https://github.com/SiliconSaga
+
+identity:
+  agent_account: your-agent-account
+  human_account: your-github-username
+  attribution: "Submitted via @{agent_account} on behalf of @{human_account}"
+  co_authored_by: "Claude Opus 4.6"
+
+# Tutorial components — public repos, no auth required
+components:
+  terasology:
+    tier: 3
+    chartVersion: "0.0.0"
+    chartName: "ts-game"
+    namespace: terasology
+
+  destinationsol:
+    tier: 3
+    chartVersion: "0.0.0"
+    chartName: "ds-game"
+    namespace: destinationsol
