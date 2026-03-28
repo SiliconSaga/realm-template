@@ -11,9 +11,8 @@ defaults:
 
 identity:
   agent_account: your-agent-account
-  human_account: your-github-username
-  attribution: "Submitted via @{agent_account} on behalf of @{human_account}"
   co_authored_by: "Claude Opus 4.6"
+  # human_account is personal — set it in ecosystem.local.yaml, not here
 
 # Tutorial components — public repos, no auth required
 components:
