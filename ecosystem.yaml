@@ -1,10 +1,10 @@
-# ecosystem.yaml — Template Overlay
+# ecosystem.yaml — Template Realm
 #
-# Example overlay for learning Yggdrasil and GDD. Declares a few public
+# Example realm for learning Yggdrasil and GDD. Declares a few public
 # repos that anyone can clone and explore without auth setup.
 #
-# To create your own overlay: fork this repo, edit the values below,
-# and run `ws overlay <your-fork-url>`.
+# To create your own realm: fork this repo, edit the values below,
+# and run `ws realm <your-fork-url>`.
 
 defaults:
   gitOrg: https://github.com/SiliconSaga
